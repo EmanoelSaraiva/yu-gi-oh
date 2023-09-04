@@ -51,9 +51,7 @@ const Home: React.FC = () => {
       </Main>
       {modalOpen && selectedCharacter && (
         <Modal isOpen={modalOpen} onClose={closeModal}>
-          <div>
-            <img src={selectedCharacter.img} alt="" />
-          </div>
+          <img src={selectedCharacter.img} alt="" />
         </Modal>
       )}
 
