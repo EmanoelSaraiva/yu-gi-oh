@@ -34,7 +34,7 @@ const Home: React.FC = () => {
   return (
     <>
       <Header>
-        <img className="logo" src={"/public/Component_6.svg"} alt="logo" />
+        <img className="logo" src={"../public/Component_6.svg"} alt="logo" />
       </Header>
       <Main>
         {data.map((character, index) => (
