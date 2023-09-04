@@ -8,9 +8,7 @@ interface MainProps {
 const Main: React.FC<MainProps> = ({ children }) => {
   return (
     <React.Fragment>
-      <MainStyled>
-        <p>{children}</p>
-      </MainStyled>
+      <MainStyled>{children}</MainStyled>
     </React.Fragment>
   );
 };

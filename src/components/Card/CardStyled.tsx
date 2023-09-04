@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Card = styled.img`
+export const CardStyled = styled.img`
   transition: transform 0.3s, box-shadow 0.3s;
   margin: 2rem;
   &:hover {

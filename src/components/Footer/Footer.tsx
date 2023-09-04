@@ -7,22 +7,22 @@ const Footer: React.FC = () => {
       <ContainerFooter>
         <h4>Desenvolvido por:</h4>
         <a href="https://www.linkedin.com/in/emanoel-saraiva/" target="_blank">
-          Emanoel Saraiva
+          Emanoel Saraiva |
         </a>
         <a
           href="https://www.linkedin.com/in/leandro-fernandes-nascimento-ba990a246/"
           target="_blank"
         >
-          Leandro Fernandes
+          Leandro Fernandes |
         </a>
         <a
           href="https://www.linkedin.com/in/lucas-pereira-sikinowski-a05347233/"
           target="_blank"
         >
-          Lucas Sikinwoski
+          Lucas Sikinwoski |
         </a>
         <a href="https://www.linkedin.com/in/marceledutra/" target="_blank">
-          Marcele Dutra
+          Marcele Dutra |
         </a>
         <a
           href="https://www.linkedin.com/in/thainara-wulfert-4350601a5/"
