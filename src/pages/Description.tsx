@@ -4,6 +4,7 @@ import Header from "../components/Header/Header";
 import Footer from "../components/Footer";
 import ButtonComponent from "../components/Button";
 import Main from "../components/Main/Main";
+import Logo from "../assets/Component_6.svg";
 import { characters } from "../data/characters";
 import { Typography } from "../components/Typography/Typography";
 import { CardDescription } from "../components/CardDescription/CardDescription";
@@ -20,7 +21,7 @@ const Description: React.FC = () => {
   return (
     <>
       <Header>
-        <img className="logo" src={"/public/Component_6.svg"} alt="logo" />
+        <img className="logo" src={Logo} alt="logo" />
       </Header>
       <Main>
         <CardDescription src={character?.img}></CardDescription>

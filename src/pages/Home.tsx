@@ -5,6 +5,7 @@ import Header from "../components/Header/Header";
 import Footer from "../components/Footer";
 import ButtonComponent from "../components/Button";
 import CardImage from "../assets/Cards.svg";
+import Logo from "../assets/Component_6.svg";
 import Main from "../components/Main/Main";
 import { characters } from "../data/characters";
 import Modal from "../components/ModalCards/Modal";
@@ -34,7 +35,7 @@ const Home: React.FC = () => {
   return (
     <>
       <Header>
-        <img className="logo" src={"../public/Component_6.svg"} alt="logo" />
+        <img className="logo" src={Logo} alt="logo" />
       </Header>
       <Main>
         {data.map((character, index) => (
